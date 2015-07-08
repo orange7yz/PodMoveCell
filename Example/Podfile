@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ZYMoveCell_Example', :exclusive => true do
+  pod "ZYMoveCell", :path => "../"
+end
+
+target 'ZYMoveCell_Tests', :exclusive => true do
+  pod "ZYMoveCell", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
