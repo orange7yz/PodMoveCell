@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "ZYMoveCell"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ZYMoveCell."
+  s.summary          = "You can change tableview's cell position."
   s.description      = <<-DESC
-                       An optional longer description of ZYMoveCell
+                       You can change tableview's cell position
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
