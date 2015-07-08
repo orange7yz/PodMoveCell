@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="199" id="KGk-i7-Jjw" customClass="LongCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PXv-kJ-nhZ">
+                        <rect key="frame" x="10" y="10" width="300" height="178.5"/>
+                        <color key="backgroundColor" red="0.84313726425170898" green="0.84313726425170898" blue="0.84313726425170898" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PXv-kJ-nhZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Vdv-ni-clB"/>
+                    <constraint firstAttribute="trailing" secondItem="PXv-kJ-nhZ" secondAttribute="trailing" constant="10" id="hzZ-PD-RlN"/>
+                    <constraint firstItem="PXv-kJ-nhZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="njx-Kc-SER"/>
+                    <constraint firstAttribute="bottom" secondItem="PXv-kJ-nhZ" secondAttribute="bottom" constant="10" id="uB7-a1-Ueg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="279" y="303.5"/>
+        </tableViewCell>
+    </objects>
+</document>
