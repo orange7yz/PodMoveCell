@@ -7,7 +7,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+You can move tableview's cell postion,without the official style.
 
 ## Requirements
 
